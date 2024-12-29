@@ -2,7 +2,7 @@ This is the code for the constant-strength-thrust-vector-control framework  (CST
 
 The file "analytical_structure_of_K_hat" contains the code for solving the elements of the matrix K_hat in the appendix. It corresponds to equation (9) in the article and equation (25) in the appendix.
 
-The file "thrust_define_optimization" contains the code for solving the constant thrust magnitude using a simplified model and optimization method. It corresponds to equation (4) in the article.
+The file "thrust_define_optimization" contains the code for solving the constant thrust intensity using a simplified model and optimization method. It corresponds to equation (4) in the article.
 
 The file "LQR_get_control_gain" contains the code for solving the CSTVC control gains using the Linear Quadratic Regulator (LQR) method. It corresponds to equations (17), (18), and (19) in the article.
 
