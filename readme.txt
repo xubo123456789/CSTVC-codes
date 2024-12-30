@@ -1,4 +1,4 @@
-This is the code for the constant-strength-thrust-vector-control framework  (CSTVC) of a flying humanoid robot, which can be run in GNU Octave.
+This is the code for the constant-strength-thrust-vector-control framework  (CSTVC) of a flying humanoid robot.
 
 The file "analytical_structure_of_K_hat" contains the code for solving the elements of the matrix K_hat in the appendix. It corresponds to equation (9) in the article and equation (25) in the appendix.
 
