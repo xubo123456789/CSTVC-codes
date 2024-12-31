@@ -8,7 +8,7 @@ The file "LQR_get_control_gain" contains the code for solving the CSTVC control 
 
 The files "compute_K_hat", "compute_forces_and_torques", "rigid_body_dynamics", and "system_state_change" are numerical simulation programs corresponding to Section 4.1 "Simulation Experiment" in the article.
 
-The "compute_K_hat" function is responsible for filling the elements of the K_hat matrix, corresponding to equation (25) in the article.
+The "compute_K_hat" function is responsible for filling the elements of the K_hat matrix, corresponding to equation (25) in the appendix.
 
 The "compute_forces_and_torques" function is the code for calculating the forces and torques acting on the robot's center of mass during flight, corresponding to equation (9) in the article.
 
