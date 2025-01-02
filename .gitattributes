@@ -1,2 +1,2 @@
-*.m linguist-language=Octave
+*.m linguist-language=GNU Octave
 *.py linguist-language=python
