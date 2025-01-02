@@ -56,26 +56,26 @@ data = [t', P_d(1)-x, P_d(2)-y, P_d(3)-z, euler_d(1)-phi, euler_d(2)-theta, eule
 % Plot Position Errors Over Time
 figure;
 subplot(2, 1, 1); % Divide the figure into two parts; first part for position
-plot(t, P_d(1)-x, 'r-', 'DisplayName', '$\it{e}_{x}$');
+plot(t, P_d(1)-x, 'r-', 'DisplayName', 'e_x');
 hold on;
-plot(t, P_d(2)-y, 'g-', 'DisplayName', '$\it{e}_{y}$');
-plot(t, P_d(3)-z, 'b-', 'DisplayName', '$\it{e}_{z}$');
+plot(t, P_d(2)-y, 'g-', 'DisplayName', 'e_y');
+plot(t, P_d(3)-z, 'b-', 'DisplayName', 'e_z');
 hold off;
 xlabel('Time (s)');
 ylabel('Position Error (m)');
-legend('Interpreter', 'latex', 'NumColumns', 3, 'FontSize', 18);
+legend('location', 'northoutside', 'orientation', 'horizontal');
 grid on;
-ylim([-0.4 0.4])
+ylim([-0.4 0.4]);
 
 % Plot Euler Angle Errors Over Time
 subplot(2, 1, 2); % Second part for Euler angles
-plot(t, euler_d(1)-phi, 'r-', 'DisplayName', '$\it{e}_{\phi}$');
+plot(t, euler_d(1)-phi, 'r-', 'DisplayName', 'e_{\phi}');
 hold on;
-plot(t, euler_d(2)-theta, 'g-', 'DisplayName', '$\it{e}_{\theta}$');
-plot(t, euler_d(3)-psi, 'b-', 'DisplayName', '$\it{e}_{\psi}$');
+plot(t, euler_d(2)-theta, 'g-', 'DisplayName', 'e_{\theta}');
+plot(t, euler_d(3)-psi, 'b-', 'DisplayName', 'e_{\psi}');
 hold off;
 xlabel('Time (s)');
 ylabel('Attitude Error (rad)');
-legend('Interpreter', 'latex', 'NumColumns', 3, 'FontSize', 18);
+legend('location', 'northoutside', 'orientation', 'horizontal');
 grid on;
-ylim([-0.2 0.2])
+ylim([-0.2 0.2]);
