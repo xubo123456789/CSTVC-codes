@@ -1,5 +1,4 @@
 # CSTVC-codes
-Code written using the open-source software GNU Octave.
 
 This is the code for the constant-strength-thrust-vector-control framework  (CSTVC) of a flying humanoid robot.
 
