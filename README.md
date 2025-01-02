@@ -1,4 +1,5 @@
 # CSTVC-codes
+Code written using the open-source software GNU Octave, as well as the open-source libraries Numpy and Scipy.
 
 This is the code for the constant-strength-thrust-vector-control framework  (CSTVC) of a flying humanoid robot.
 
