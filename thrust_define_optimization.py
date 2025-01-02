@@ -36,7 +36,7 @@ bounds = [
 # Initial guess
 x0 = [10, 10, 10, np.pi / 4, -np.pi / 4, np.pi / 4]
 
-# Solve using COBYLA
+# Solve
 result = minimize(
     objective,
     x0,
